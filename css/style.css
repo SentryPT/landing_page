@@ -1,27 +1,75 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+    padding-top: 20px;
+}
+
+.text-container{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+}
+
 .header{
     display: flex;
     background: #1F2937;
     justify-content: space-between;
     background-color: #1F2937;
     margin: 0px;
-    }
+    border: 0px;
+    
+}
   
   .header-logo{
     display: flex;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
     justify-content: flex-start;
     background: #1F2937;
-  }
+    padding: 5px;
+    border-radius: 2px;
+}
   
   .header-link{
     display: flex;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
     justify-content: flex-end;
     align-items: center;
-  }
-  
-  .header-container{
+    padding: 5px;
+}
+
+.header-container{
+    display: flex;
     background: #1F2937;
-  }
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+
+.header-image{
+    width: 500px;
+    height: 300px;
+    
+}
+
+.signup-button{
+    background-color: #3882f6;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+.signup-button:hover {
+  background-color: #d1dbe6; 
+}
