@@ -11,6 +11,7 @@ body{
     border: 0px;
     padding-left: 100px;
     padding-right: 100px;
+    padding: 25px 100px 25px 100px;
     
 }
 
@@ -47,6 +48,8 @@ body{
     background: #1F2937;
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .header-container-text{
     width: calc(50% - 20px);
@@ -80,13 +83,11 @@ h1{
   background-color: #d1dbe6; 
 }
 
-
 .header-image{
     width: 500px;
     height: 300px;
-    
+    padding-bottom: 50px;
 }
-
 
 .mid-container{
     padding: 25px 100px 25px 100px;
