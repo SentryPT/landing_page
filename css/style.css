@@ -3,7 +3,7 @@ body{
 }
 
 .header{
-    display: flex;
+    display: flex; /*o flex tem de ser colocado sempre no container. na caixa mãe*/
     background: #1F2937;
     justify-content: space-between;
     background-color: #1F2937;
@@ -35,13 +35,23 @@ body{
     justify-content: flex-end;
     align-items: center;
     padding: 5px;
-    list-style: none;
+    list-style: none;   /*retira o estilo que tinha sido posto. neste caso como é uma li, retira o ponto antes*/
+    transition-duration: 0.5s;
+    border-radius: 5px;
     
+}
+
+.header-link :hover{
+    background-color: #d1dbe6;
 }
 
 .header-link li{
     margin-right: 15px;
+    
+    
 }
+
+
 
 .header-container{
     display: flex;
@@ -53,6 +63,7 @@ body{
 }
 .header-container-text{
     width: calc(50% - 20px);
+    
 }
 
 h1{
@@ -145,8 +156,11 @@ h1{
 }
 .sign-container{
     display: flex;
-    justify-content: center;
-    padding: 100px;
+    background-color: #3882f6;
+    padding: 10px 80px;
+    border-radius: 5px;
+    margin: 50px 200px;
+    align-items: center;
     
 }
 
@@ -154,9 +168,9 @@ h1{
     background-color: #3882f6;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    padding: 20px;
+    padding: 20px 200px;
     border-radius: 5px;
-    width: 900px ;
+    align-items: center;
 }
 .sign-button{
     background-color: #3882f6;
@@ -167,7 +181,7 @@ h1{
     padding: 10px 30px;
     border-radius: 5px;
     transition-duration: 0.5s;
-    margin-right: 10px;
+    
     
 }
 .sign-button:hover {
